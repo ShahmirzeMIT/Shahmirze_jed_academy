@@ -11,7 +11,7 @@
 .sir{
 	width: 35vh;
 	float: left;
-	height: 30vh;
+	height: 45vh;
 	margin: 2px;
 	text-align: center;
 	font-size: 25px;
@@ -20,5 +20,8 @@
 }
 .sir img{
 	width: 100%;
-	height: 100%;
+	height: 85%;
+}
+.fil{
+	border: 3px solid black;
 }
