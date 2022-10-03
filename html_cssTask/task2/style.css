@@ -1,0 +1,16 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.task{
+	background-color: green;
+	width: 70%;
+	margin: 20px auto;
+	font-size: 25px;
+	color: white;
+}
+.task::after{
+	content: '\2600';
+	color: yellow;
+	font-size: 30px;
+}
