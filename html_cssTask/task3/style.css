@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+
+header{
+	background-color: rgb(147, 146, 144);
+	padding: 20px;
+}
+header h1{
+	color: beige;
+}
+main{
+	padding: 2vh;
+}
+div.menu{
+	width: 20%;
+	float: left;
+	height: 25vh;
+	
+}
+main ul li{
+	 padding: 1vh;
+	 margin: 1vh;
+	background-color: rgba(51,181,230); 
+}
+.text {
+	margin: 0 2vh;
+}
+.text p{
+	margin: 2vh;
+}
+footer{
+	clear:both;
+	background-color: rgb(147, 146, 144);
+	padding: 20px;
+}
