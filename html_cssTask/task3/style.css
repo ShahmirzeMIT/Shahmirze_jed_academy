@@ -25,6 +25,7 @@ main ul li{
 	 padding: 1vh;
 	 margin: 1vh;
 	background-color: rgba(51,181,230); 
+	color: white;
 }
 .text {
 	margin: 0 2vh;
