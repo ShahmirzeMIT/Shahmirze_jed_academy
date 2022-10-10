@@ -1,0 +1,81 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+	text-decoration: none;
+}
+body{
+	background: url('./img/1.jpg') no-repeat center/cover ;
+	height: 100vh;
+	padding-top: 150px;
+	box-sizing: border-box;
+}
+form{
+	width: 20vw;
+	margin: 0 auto;
+	height: 35vh;
+	background: rgba(5, 5, 5, 0.3);	
+	border-radius: 3px;
+	box-shadow: 10px 4px 8px 0 rgba(0, 0, 0, 0.4), 5px 6px 20px 20px rgba(0, 0, 0, 0.4);
+
+}
+.logo{
+	position: relative;
+	margin-bottom: 20px;
+}
+.txt_align{
+	text-align: center;
+	color: white;
+}
+.icon{
+	position: absolute;
+	top: 3px;
+	right: 2px;
+	background-color: rgba(5, 5, 5, 0.4);
+	color: rgba(5, 5, 5, 0.4);
+	opacity: 0.5;
+	border-radius: 50%;
+}
+
+div.write{
+	width: 90%;
+	margin: 0 auto;
+}
+
+div.write >input{
+padding: 13px;
+width: 100%;
+margin:5px 0px;
+box-sizing: border-box;
+background-color: rgba(44, 42, 42, 0.4);
+color: white;
+border: none;
+border-radius: 5px;
+}
+div.btn{
+	width: 90%;
+	margin: 0 auto;
+}
+div.btn>button{
+margin-top: 10px;
+padding: 11px;
+width: 100%;
+border: none;
+border-radius: 5px;
+font-size: 15px;
+color: white;
+background-color: rgba(37, 224, 37, 0.4);
+}
+
+.check{
+	width: 90%;
+	margin: 10px auto;
+	display: flex;
+	justify-content: space-between;
+}
+.link{
+color: rgb(59, 58, 58);
+}
+.link2{
+	color: rgb(29, 28, 28);
+	}
