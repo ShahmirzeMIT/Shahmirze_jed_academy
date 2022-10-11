@@ -1,3 +1,8 @@
+
+:root{
+	--div_width:600px;
+	--height:120px;
+   }
 *{
      margin: 0;
      padding: 0;
@@ -14,25 +19,22 @@
 	box-shadow: -5px 5px 0 4.5px white;
 	border-radius: 50%;
    }
-   --root{
-	--div_width:200px;
-	--height:400px;
-   }
+
    .red{
-	height: 120px;
-	width: 600px;
+	height: var(--height);
+	width: var(--div_width);
 	background-color: rgb(223,15,2);
 	position: relative;
    }
    .blue{
 	background-color: rgb(0, 132, 255);
-	height: 120px;
-	width: 600px;
+	height: var(--height);
+	width: var(--div_width);
    }
    .green{
 	background-color: green;
-	height: 120px;
-	width: 600px;
+	height: var(--height);
+	width: var(--div_width);
 
    }
    .img{
