@@ -1,0 +1,51 @@
+:root{
+	--blue:#63b7e6;
+	--gray:gray;
+}
+h2{
+	margin: 40px 0 ;
+	text-align: center;
+	font-family: Raleway, sans-serif;
+	color: var(--blue);
+}
+.container{
+	display: flex;
+	width: 60%;
+	margin: 0 auto;
+}
+.link,.music,.users{
+	text-align: center;
+	font-size: 20px;
+
+}
+.fs{
+	font-size: 30px;
+}
+.container{
+	color: var(--gray);
+}
+.container>div{
+padding: 10px;
+ruby-merge: 5px;	
+width: 27%;
+}
+div.kolge > p{
+	text-indent: 2em;
+	text-align: left;
+}
+.line{
+	width: 15%;
+	height: 0.5px;
+	background-color: rgb(150, 147, 147);
+	margin: 0 auto;
+	transition: width 0.5s;
+}
+.kolge:hover{
+	box-shadow: 0px 0px 20px rgb(128, 126, 126);
+}
+.kolge:hover .clr{
+	color: var(--blue);
+}
+.kolge:hover .line{
+	width: 10%;
+}
