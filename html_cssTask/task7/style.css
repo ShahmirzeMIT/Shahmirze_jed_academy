@@ -49,3 +49,6 @@ div.kolge > p{
 .kolge:hover .line{
 	width: 10%;
 }
+.mr-top{
+	margin-top: 0;
+}
