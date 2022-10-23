@@ -1,0 +1,305 @@
+
+:root{
+	--palidi: #B08968;
+	--green:rgba(1, 107, 56, 1);
+	--white:white;
+	--gray:gray;
+	--black:black;
+	--beige:rgb(245, 245, 245);
+}
+
+p{
+	margin: 0;
+}
+
+
+.rotate{
+	transform: rotate(320deg);
+}
+.green{
+	background:var(--green) ;
+}
+
+.head a{
+	color: var(--white);
+
+}
+
+.logo{
+display: flex;
+}
+/* 
+.d-none_list{
+	display: none;
+} */
+.fs-13{
+	font-size: 0.8em;
+}
+.fs-9{
+	font-size: 0.6em
+}
+.flex-col2{
+	display: flex !important;
+	flex-direction: column;
+}
+.palid{
+	background-color: var(--palidi);
+}
+
+#menu{
+	display: none;
+}
+ 
+.bckArc{
+	background: url('img/Group\ 48\ 1.jpg') no-repeat center/cover;
+	height: 60vh;
+}
+.gray{
+	background-color: transparent;
+	border-color: var(--white);
+	
+}
+.h100{
+	height: 100%;
+}
+.lorem{
+	width:68%;
+	margin: 0 auto 0.8em;
+}
+.wd40{
+	width: 80%;
+	height: 90%;
+	border: 1px solid var(--gray);
+	z-index: 1;
+}
+.wd402{
+	width: 80%;
+	height: 90%;
+	border: 1px solid var(--gray);
+	z-index: 0;
+	position:absolute;
+	top: 10%;
+	left: 10%;
+}
+.mainAbout{
+	height: inherit;
+}
+.line{
+	width: 20%;
+	height: 0.5%;
+	border: 1px solid var(--gray);	
+}
+.fsd{
+	font-size: 12px;
+}
+
+.index,.about{
+width: inherit;
+display: inherit;
+}
+
+.wd40{
+width: inherit;
+height: inherit;
+border: none;
+}
+
+
+.wd402{
+	width: inherit;
+	height: inherit;
+	border: none;
+	position: inherit;
+	}
+
+.img-80{
+	width: 100%;
+
+}
+.usta{
+	position: inherit;
+}
+
+
+.layihe{
+	background: url('./img/layihe.png') no-repeat center/cover;
+	height: inherit;
+
+
+}
+.curtain{
+	background-color: var(--black);
+	opacity: 0.8;
+
+}
+
+.clrWhite{
+	color: var(--white);
+}
+
+.line2{
+width: 10%;
+height: 0.5%;
+border: 1px solid var(--gray);	
+}
+
+.line3{
+	width: 100%;
+	height: 0.2%;
+	border: 0.5px solid var(--gray);	
+}
+.bc_green{
+	background-color: var(--green);
+}
+
+.br-clr{
+ border: 1px solid var(--white);
+}
+
+.ren{
+	background: url('img/Rectangle\ 9.jpg') no-repeat center/cover	;
+}
+.mescid{
+	background: url('img/mescid.png') no-repeat center/cover;
+}
+.minare{
+	background: url('img/minare.jpg') no-repeat center/cover;
+}
+.qiz{
+background: url('img/qizqalasi.jpg') no-repeat center/cover;
+}
+
+.bot{
+	padding-top: 90%;
+	box-sizing: border-box;
+	margin: 0 3px;
+}
+.flex-d{
+	flex-direction: column;
+}
+
+
+.mr_4{
+	margin: 4px 0;
+}
+
+.p3em{
+	padding: 3em 0 0 0;
+}
+
+.p3bem{
+	padding: inherit;
+}
+
+.xdm_gr{
+	color: var(--green);
+}
+
+.beige{
+	background: var(--beige);
+	box-sizing: border-box;
+}
+
+.type{
+	background: var(--white);
+	padding: 10px;
+	margin: 0 0 0 1em;
+}
+
+.mr_5{
+	margin: 5px 0;
+}
+
+
+.texnika{
+	background: url('./img/texnikalar.png') no-repeat center/cover;
+}
+
+
+.mr_auto{
+margin: 0 auto;
+}
+.pd-0{
+	padding: 0;
+}
+
+
+.linely{
+	background: url('img/line.png') center/cover;
+}
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+	
+.d-noneBtn{
+	display: none;
+}
+.bckArc{
+	height: 83vh;
+}
+.index,.about{
+	width: 50%;
+	display: inline-block;
+}
+.wd40{
+	padding: 30% 38%;
+	border: 1px solid var(--gray);
+	z-index: 1;
+}
+.wd402{
+     padding: 30% 39%;
+	border: 1px solid var(--gray);
+	z-index: 0;
+	position:absolute;
+	top: 5%;
+	left: 10%;
+}
+
+.ps-real{
+	position:relative;
+	top: -80%;
+}
+.img-80{
+	width: 90%;
+}
+
+.usta{
+	width: 85%;
+	position: relative;
+	top: -46%;
+	left: 5%;
+}
+.mainAbout{
+	height: 70vh;
+}
+.layihe{
+	height: 60vh;
+}
+
+.line2{
+	width: 30%;
+}
+.flex-d{
+	flex-direction: row;
+}
+
+.mr_4{
+	margin: 0;
+}
+
+.p3bem{
+	padding: 3em 0 0 0;
+}
+.mr_5{
+	margin: inherit;
+}
+
+.type{
+	margin: 0 1em 0 0;
+}
+
+
+   }

@@ -29,7 +29,7 @@ width: 200px;
 border-radius: 150px 150px 0 0;
 background-color: yellow;
 position: relative;
-animation: top 0.7s alternate infinite;
+animation: top 0.7s alternate 4;
 }
 
 .pacman-bottom{
@@ -37,7 +37,7 @@ animation: top 0.7s alternate infinite;
 	width: 200px;
 	border-radius:0 0 150px 150px ;
 	background-color: yellow;
-	animation: bottom 0.7s alternate infinite;
+	animation: bottom 0.7s alternate 4;
 }
 .point{
 	width: 10px;
