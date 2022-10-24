@@ -228,7 +228,10 @@ margin: 0 auto;
 	background: url('img/line.png') center/cover;
 }
 
-
+.icons{
+	font-size: 1.5em;
+    padding: 0.5em;
+}
 
 
 
