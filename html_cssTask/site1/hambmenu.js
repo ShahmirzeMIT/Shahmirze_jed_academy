@@ -1,4 +1,3 @@
-
 function bagla(){
 	let menu=document.getElementById('menu')
 	if(menu.style.display==="none"){
