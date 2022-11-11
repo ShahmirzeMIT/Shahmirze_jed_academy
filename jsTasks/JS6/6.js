@@ -26,3 +26,19 @@ Calculator.divide()
 Calculator.subtract()
 console.log(Calculator.eded1)
 console.log(Calculator.eded2)
+
+
+function car(model,istehsalIli,sahibi){
+    this.model=model
+    this.istehsalIli=istehsalIli
+    this.sahibi=sahibi
+    this.drive=()=>{
+    return(`someone ${this.model} masina qaz verir`)
+    }
+    this.brake =()=>{
+    return(`someone ${this.model} markali masina tormoz verir`)
+    }
+    }
+    
+    let Car= new car('BMW',2020,"Shahmirze")
+    console.log(Car.brake())
