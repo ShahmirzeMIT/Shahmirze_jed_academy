@@ -60,6 +60,28 @@ let weekName={
 
 for (let key in weekName){
 	if(week==key){
-		console.log(weekName[key])
+		document.write(weekName[key]+"<br>")
 	}
 }
+// 4
+let month=date.getMonth()
+let MonthName={
+	0:'Yanvar',
+	1:'Fevral',
+	2:'Mart',
+	3:'Aprel',
+	4:'May',
+	5:'Iyun',
+	6:'Iyul',
+	7:'Avqust',
+	8:'Sentyabr',
+	9:'Oktyabr',
+	10:'Noyabr',
+	11:'Dekabr'
+}
+for(let value in MonthName){
+	if(month==value){
+		document.write(MonthName[value])
+	}
+}
+console.log(month)
