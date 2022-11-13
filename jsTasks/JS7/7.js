@@ -48,7 +48,6 @@ let date=new Date()
 
 //3 
 let week=date.getDay()
-
 let weekName={
 	0:'Sunday',
 	1:'Monday',
@@ -59,30 +58,8 @@ let weekName={
 	6:'Saturday'
 }
 
-if (week==0){
-document.write((`Sunday`))
-}
-
-else if(week==1){
-	document.write(`Munday`)
-}
-
-else if(week==2){
-document.write((`Tuesday`))
-}
-
-else if(week==3){
-document.write((`Wensday`))
-}
-
-else if(week==4){
-	document.write((`Tuersday`))
-}
-
-else if(week==5){
-document.write((`Friday`))
-}
-
-else if(week==6){
-	document.write((`Saturday`))
+for (let key in weekName){
+	if(week==key){
+		console.log(weekName[key])
+	}
 }
