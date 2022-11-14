@@ -23,6 +23,15 @@
 	console.log(max)
  }
 
- findLongestName('shahmirze','Ali','Muhammad','Kamil')
+ findLongestName('shahmirze','Ali','Muhammad','Kamil','HesenHuseyn')
 
-//3
+ //3
+ 
+ const names = ["Michael", "Trevor", "Franklin", "Lamar", "Jimmy"]; 
+ function printWithIndex(){
+	for (let  i= 0;  i< names.length; ++i) {
+		console.log(`${i} : ${names[i]}`);
+	}
+ }
+
+ printWithIndex()
