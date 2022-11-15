@@ -32,11 +32,16 @@
 
 //-----------------------------------------------------------------------------------------------
 // 1
-const Shahmirze=new Date(2004,10,12)
+const Shahmirze=new Date(2003,1,16)
 let diffrenc=Date.now() - Shahmirze.getTime()
+let deq=diffrenc/1000
 let gun =diffrenc/1000/60/60/24
+let saat=diffrenc/1000/60
 console.log(diffrenc)
 console.log(gun)
+console.log(deq)
+console.log(saat);
+console.log(saat-saat/2160)
 // let day=date.getDay()
 
 // if(day==1 && day==3 && day===5){

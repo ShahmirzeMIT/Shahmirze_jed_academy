@@ -15,8 +15,8 @@
  function findLongestName(...arr){
  	let count;
 	let arr1=[]
-	for(let i=0;i<arr.length;i++){
-		count=arr[i].length;
+	for(let key of arr){
+		count=key.length;
      	arr1.push(count)	
 	}
 	let max=Math.max(...arr1)
@@ -27,7 +27,7 @@
 
  //3
  
- const names = ["Michael", "Trevor", "Franklin", "Lamar", "Jimmy"]; 
+ const names = ["Michael", "Trevor", "Franklin", "Lamar", "Jimmy","Lester"]; 
  function printWithIndex(){
 	for (let  i= 0;  i< names.length; ++i) {
 		console.log(`${i} : ${names[i]}`);
