@@ -48,7 +48,7 @@
 	// arrayde tekrar olunan elementleri silir
 
 	// function show(...arrshow){
-	// 	let sort=arrshow.sort()
+	// 	let sort=arrshow.sort((a,b)=>a-b)
 		
 	// 	for (let i = 0; i < arrshow.length; i++) {
 	// 		if(arrshow[i]==arrshow[i+1]){
@@ -61,9 +61,9 @@
 	//join
 	// let color = ["Blue ", "Green", "Red", "Orange", "Violet", "Indigo", "Yellow "];
 	// let o = ["th","st","nd","rd"]
-	
+
 	// for(let i=0;i<color.length;i++){
-		
+
 	// }
 
 	//
@@ -73,33 +73,33 @@
 
 	//alternative
 	// function choose(...Arr){
-
 	// 	let count=0;
+	// 	let items;
 	// 	for (let  i= 0;  i< Arr.length; i++) {
 	// 	if( typeof Arr[i] == "string"){
 	// 		count++
+	// 		items=Arr[i]
 	// 	}	
 	// 	}
-	// 	console.log(` ${count}`)	
+	// 	console.log(`${items} count: ${count}`)	
 	//  }
-	//  choose(3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3)
-		let arr1=[3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3];
-		let mf = 1;
-		let m = 0;
-		let item;
-		for (let i=0; i<arr1.length; i++)
-		{
-			for (let j=i; j<arr1.length; j++)
-			{
-					if (arr1[i] == arr1[j])
-					m++;
-					if (mf<m)
-					{
-					mf=m; 
-					item = arr1[i];
-					}
-			}
-			m=0;
-		}
-		console.log(item+" ( " +mf +" times ) ") ;
-
+	// let m = 0;
+	//   choose(3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3)
+	// let arr1=[3, 'a', 'a', 'a', 2, 3, 'a', 3, 'a', 2, 4, 9, 3];
+	// let item;
+	// for (let i=0; i<arr1.length; i++)
+	// let mf = 1;
+	// {
+	// 	for (let j=i; j<arr1.length; j++)
+	// 	{
+	// 			if (arr1[i] == arr1[j])
+	// 			m++;
+	// 			if (mf<m)
+	// 			{
+	// 			mf=m; 
+	// 			item = arr1[i];
+	// 			}
+	// 	}
+	// 	m=0;
+	// }
+	// console.log(item+" ( " +mf +" times ) ") ;

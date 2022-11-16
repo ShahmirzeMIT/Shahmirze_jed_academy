@@ -32,7 +32,7 @@
 
 //-----------------------------------------------------------------------------------------------
 // 1
-const Shahmirze=new Date(2003,1,16)
+const Shahmirze=new Date(2003,7,15)
 let diffrenc=Date.now() - Shahmirze.getTime()
 let deq=diffrenc/1000
 let gun =diffrenc/1000/60/60/24
