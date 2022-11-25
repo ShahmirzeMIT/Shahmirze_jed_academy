@@ -59,12 +59,6 @@
 	// }
 	// show(1,2,56,78,90,1,3,56)
 	//join
-	// let color = ["Blue ", "Green", "Red", "Orange", "Violet", "Indigo", "Yellow "];
-	// let o = ["th","st","nd","rd"]
-
-	// for(let i=0;i<color.length;i++){
-
-	// }
 
 	//
 	// Write a JavaScript program to find the most frequent item of an array.
