@@ -74,20 +74,7 @@ const users=[
  ]
 
  const root=document.getElementById('root')
- //   your code goes here
-// let name='C:\\Users\\acer\\Desktop\\JED Academy\\Shahmirze_jed_academy\\jsTasks\\JS12\\img\\';
-//  for (const val of users) {
-// 	const div=document.createElement('div')
-// 	root.append(div)
-// 	const img=document.createElement('img')
-// 	img.src=`${name}${val.img}.jpg`
-// 	const h1=document.createElement('h1')
-// 	h1.textContent=`${val.username}`
-// 	const p=document.createElement('p')
-// 	p.textContent=`${val.job}`
-// 	div.append(img,h1,p)
 
-//  }
 let name='img\\';
 for (const val of users) {
     const div=document.createElement('div')
