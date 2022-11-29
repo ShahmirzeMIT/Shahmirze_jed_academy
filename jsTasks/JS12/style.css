@@ -1,0 +1,25 @@
+body{
+	background-color: black;
+}
+
+#root{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+
+}
+#root  div{
+	width: 23%;
+	text-align: center;
+	color: white;
+	border: 1px solid rgb(85, 84, 84);
+	border-radius: 10px;
+	margin: 5px;
+}
+#root div:hover{
+	box-shadow:1px 1px 10px white;
+}
+div >img{
+	width: 100%;
+}

@@ -7,15 +7,35 @@ gray.onclick=()=>{
     document.body.style.background='gray'
 }
 red.onclick=()=>{
-    document.body.style.background='red'
+    document.body.style.background='#ff1a1a'
 }
 blue.onclick=()=>{
-    document.body.style.background='blue'
+    document.body.style.background='#33ccff'
 }
 yellow.onclick=()=>{
-    document.body.style.background='yellow'
+    document.body.style.background='#ffff4d'
 }
 
-for (let i = 0; i < document.body.childNodes.length; i++) {
-   console.log( document.body.childNodes[i] ); // Text, DIV, Text, UL, ..., SCRIPT
-  }
+
+
+let simple,check 
+simple=+prompt('sade olub olmadigini yoxlayacam')
+check=true
+if (simple === 1) {
+	alert("1 is neither prime nor composite number.");
+ }
+ 
+else if (simple > 1) {
+	for (let i = 2; i < simple; i++) {
+	    if (simple % i == 0) {
+		   check = false;
+		   break;
+	    }
+	}
+ 
+	if (check) {
+	   alert(`${simple} is a prime number`);
+	} else {
+	    alert(`${simple} is a not prime number`);
+	}
+ }
