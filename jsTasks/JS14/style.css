@@ -1,0 +1,40 @@
+* {
+    background-color: black;
+}
+
+.circle {
+    margin-top: 90px;
+    width: 250px;
+    height: 250px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.circle1 {
+    margin-top: 90px;
+    width: 250px;
+    height: 250px;
+    border: 1px solid lime;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 1px 1px 65px lime inset, 1px 1px 30px rgb(57, 223, 235);
+    padding: 40px;
+    color: white;
+    font-size: 20px;
+}
+
+.head1 {
+    background-color: lime;
+    border: 5px solid white;
+}
+
+#john {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.white {
+    color: white;
+    border: 1px solid lime;
+}

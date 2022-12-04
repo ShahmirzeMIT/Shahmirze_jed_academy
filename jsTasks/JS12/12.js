@@ -71,7 +71,7 @@ const users=[
 	    img:'novxani',
 	    job:'test8',
 	},
- ]
+]
 
  const root=document.getElementById('root')
 
@@ -85,6 +85,6 @@ for (const val of users) {
     h1.textContent=`${val.username}`
     const p=document.createElement('p')
     p.textContent=`${val.job}`
-    div.append(img,h1,p)
+    div.append(img,p,h1)
 
 }
