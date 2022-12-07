@@ -51,21 +51,21 @@ console.log(circle.setAttribute('name', 'circle1'))
 //     event.target.style.textAlign = "center"
 //     event.target.textContent = `x = ${event.x} y = ${event.y}`
 // })
-// const play = document.querySelector('#play')
-// const pause = document.querySelector('#pause')
-// const john = document.getElementById('#john')
+const play = document.querySelector('#play')
+const pause = document.querySelector('#pause')
+const john = document.getElementById('#john')
 
-// play.addEventListener('click', (event) => {
-//     john.play()
-// })
-// pause.addEventListener('click', (event) => {
-//     john.pause()
-// })
+play.addEventListener('click', (event) => {
+    john.play()
+})
+pause.addEventListener('click', (event) => {
+    john.pause()
+})
 
 // window.addEventListener('keydown', (event) => {
 //     console.log(event)
 // })
-const circle1 = document.querySelector('.circle1')
+// const circle1 = document.querySelector('.circle1')
 
 let x = ''
     // window.addEventListener('keydown', (event) => {
@@ -82,13 +82,13 @@ let x = ''
 //keydown yazini yazdigimizda bas verir 
 // keyup basib buraxdiqdan sonra bas verir
 //keypress  ikisi bir yerde
-window.addEventListener('keyup', (event) => {
-    x += event.key
-    if (x == "simsimacil") {
-        circle1.textContent = "geldin menim agam"
-        circle1.style.color = 'white'
-    }
-    console.log(x)
+// window.addEventListener('keyup', (event) => {
+//     x += event.key
+//     if (x == "simsimacil") {
+//         circle1.textContent = "geldin menim agam"
+//         circle1.style.color = 'white'
+//     }
+//     console.log(x)
 
 
-})
+// })
