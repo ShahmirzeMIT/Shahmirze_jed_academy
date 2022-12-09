@@ -1,7 +1,7 @@
 const opponentElem = document.getElementById('opponent')
 const playerElem = document.getElementById('player')
 const start = document.getElementById('start')
-
+const divStart = document.querySelector('.divStart')
 const CARDS = [
     '1~red',
     '2~red',
@@ -40,7 +40,7 @@ createCards(6, playerElem)
 
 function createCards(cardCount, element) {
 
-    let x = []
+
     for (let i = 0; i < cardCount; i++) {
         const card_details = randomCard()
         const symbol = card_details[0]
@@ -52,7 +52,7 @@ function createCards(cardCount, element) {
         card.classList.add('card', 'style')
         const span = document.createElement('span')
         span.innerHTML = symbol
-        x.push(card)
+
         card.appendChild(span)
 
         //     element.appendChild(card)
@@ -62,10 +62,9 @@ function createCards(cardCount, element) {
             element.appendChild(card)
 
             setTimeout(() => {
-                card.classList.toggle('animation')
 
                 card.classList.remove('style')
-                start.style.display = "none"
+                divStart.style.display = "none"
             }, 1000)
 
         })
