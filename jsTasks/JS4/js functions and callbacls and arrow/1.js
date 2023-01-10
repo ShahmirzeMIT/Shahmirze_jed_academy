@@ -87,61 +87,61 @@ getName()*/
 // 	else no()
 // }
 
-function showOk() {
-    alert("you agreed")
-}
+// function showOk() {
+//     alert("you agreed")
+// }
 
-function showCancel() {
-    alert('why choose')
-}
+// function showCancel() {
+//     alert('why choose')
+// }
 
-ask("do you agree", showOk, showCancel)
-debugger
-let num1 = +prompt("birinci ededi daxil et")
-let num2 = +prompt("ikinci ededi daxil et")
-let operator = prompt('emeli daxil et')
+// ask("do you agree", showOk, showCancel)
+// debugger
+// let num1 = +prompt("birinci ededi daxil et")
+// let num2 = +prompt("ikinci ededi daxil et")
+// let operator = prompt('emeli daxil et')
 
-function showConsole(something) {
-    console.log(something)
-}
+// function showConsole(something) {
+//     console.log(something)
+// }
 
-function calc(num1, num2, operator) {
-    if (operator == '+' || operator == '-' || operator == '*' || operator == '/') {
-        switch (operator) {
-            case '+':
-                return (num1 + num2)
-                break;
-            case '-':
-                return (num1 - num2)
-                break;
-            case '*':
-                return (num1 * num2)
-                break;
-            case '/':
-                return (num1 / num2)
-                break;
-        }
-    } else {
-        console.log(':(')
-    }
-}
+// function calc(num1, num2, operator) {
+//     if (operator == '+' || operator == '-' || operator == '*' || operator == '/') {
+//         switch (operator) {
+//             case '+':
+//                 return (num1 + num2)
+//                 break;
+//             case '-':
+//                 return (num1 - num2)
+//                 break;
+//             case '*':
+//                 return (num1 * num2)
+//                 break;
+//             case '/':
+//                 return (num1 / num2)
+//                 break;
+//         }
+//     } else {
+//         console.log(':(')
+//     }
+// }
 
-let func = calc(num1, num2, operator)
-console.log(func)
-alert(func)
+// let func = calc(num1, num2, operator)
+// console.log(func)
+// alert(func)
 
 
-let result = calc(num1, num2, operator)
-showConsole(result)
+// let result = calc(num1, num2, operator)
+// showConsole(result)
 
-let eded = +prompt('ededi daxil et')
+// let eded = +prompt('ededi daxil et')
 
-function show(some) {
+// function show(some) {
 
-}
+// }
 
 function myFunc(callback) {
-    const a = [4, 5, 6]
+    const a = [4, 5, 6, 3, 5, 6, 87, 9, 8980, 54543]
     let element = document.querySelector('.out')
     callback(element, a) //==out(element,a)
 }
@@ -153,9 +153,9 @@ function out(elem, arr) {
 myFunc(out)
 
 
-function first(y) {
+function first(t) {
     console.log(1)
-    y("salam", "kamil");
+    t("salam", "kamil");
 }
 
 function second(a, b) {
@@ -203,20 +203,20 @@ function check(tarix, ad, cins) {
 }
 date(check)
 
-function showDisplay(callback) {
-    let name = prompt('adiniz daxil edin')
-    let salary = prompt('emek haqqi')
-    let childeren = prompt('Usaginiz varsa Yes yoxsa No yazin')
-    callback(name, salary, childeren)
-}
+// function showDisplay(callback) {
+//     let name = prompt('adiniz daxil edin')
+//     let salary = prompt('emek haqqi')
+//     let childeren = prompt('Usaginiz varsa Yes yoxsa No yazin')
+//     callback(name, salary, childeren)
+// }
 
-function ipoteka(ad, gelir, childeren) {
-    if (gelir < 1200 && childeren == "Yes") {
-        console.log(`Tamam sizin emek haqqiniz 500azn artirilacaq`)
-    } else if (gelir < 1200 && childeren == "No") {
-        console.log('Tamam sizin emek haqqiniz 300azn artirilacaq')
-    } else {
-        console.log('sizin ememk haqqiniz artitilmayacaq')
-    }
-}
-showDisplay(ipoteka)
+// function ipoteka(ad, gelir, childeren) {
+//     if (gelir < 1200 && childeren == "Yes") {
+//         console.log(`Tamam sizin emek haqqiniz 500azn artirilacaq`)
+//     } else if (gelir < 1200 && childeren == "No") {
+//         console.log('Tamam sizin emek haqqiniz 300azn artirilacaq')
+//     } else {
+//         console.log('sizin ememk haqqiniz artitilmayacaq')
+//     }
+// }
+// showDisplay(ipoteka)
