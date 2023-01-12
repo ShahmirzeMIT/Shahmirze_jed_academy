@@ -3,7 +3,9 @@ const root = document.getElementById('root')
 let mypromise = new Promise((resolve, reject) => {
     let backendData = {
         name: "ali ",
-        age: 22
+        age: 22,
+        job: 'dev',
+        location: 'Koroglu asan xidemet'
     }
     resolve(backendData)
 })
@@ -29,25 +31,26 @@ async function getData() {
     //     console.log("error happen")
     // }
 
-    try {
-        const url = 'https://www.swapi.tech/api/people/7'
-        const { data } = await axios.get(url)
-        const datas = data.result.properties
-        root.innerHTML += `<h1>${datas.name}</h1>`
-        root.innerHTML += `<h2>${datas.birth_year}<h2>`
-        root.innerHTML += `<h3>${datas.gender}<h3>`
-        root.innerHTML += `<h4>${datas.skin_color}<h4>`
-        root.innerHTML += `<h5>${datas.eye_color}<h5>`
-        console.log(data)
-    } catch (error) {
-        console.log(error)
-        console.log('error bas verdi')
-    }
-
     // try {
-    //     let data = await mypromise
+    //     const url = 'https://www.swapi.tech/api/people/7'
+    //     const { data } = await axios.get(url)
+    //     const datas = data.result.properties
+    //     root.innerHTML += `<h1>${datas.name}</h1>`
+    //     root.innerHTML += `<h2>${datas.birth_year}<h2>`
+    //     root.innerHTML += `<h3>${datas.gender}<h3>`
+    //     root.innerHTML += `<h4>${datas.skin_color}<h4>`
+    //     root.innerHTML += `<h5>${datas.eye_color}<h5>`
     //     console.log(data)
     // } catch (error) {
     //     console.log(error)
+    //     console.log('error bas verdi')
     // }
+
+    try {
+        let data = await mypromise
+        root.innerHTML += `<h1>Mypromise Name:${data.name}; Mypromise job: ${data.job}</h1>`
+        root.innerHTML += `<h1>Mypromise Age:${data.age}; Mypromise location: ${data.location}</h1>`
+    } catch (error) {
+        console.log(error)
+    }
 }
