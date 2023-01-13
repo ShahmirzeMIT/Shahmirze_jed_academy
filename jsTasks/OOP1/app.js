@@ -46,7 +46,7 @@ let num = 127
 Number.prototype.isPrime = function() {
     return this % 2 == 0
 }
-let str = "a12li37"
+let str = "a12li372343sbgvsade32vrwgevrg3rweve3rwr32"
 String.prototype.toCapitalize = function() {
     return this[0].toUpperCase() + this.slice(1, this.length)
 }
@@ -57,13 +57,40 @@ String.prototype.removeWhiteSpaces = function() {
 
 String.prototype.filterDigits = function() {
     let arr = []
+    let num
     for (let i = 0; i < this.length; i++) {
-        //   if (this[i] * 2 == NaN) {
+        num = this.replace(/\D/g, '')
+    }
+    arr.push(num.split(''))
+    return arr
+}
 
-        if (!this[i] * 2 == NaN) {
-            console.log(this[i])
-        }
-        //    }
+class Vehicle {
+    constructor(fuel, wheelCount, landOrAir) {
+        this.fuel = fuel
+        this.wheelCount = wheelCount
+        this.landOrAir = landOrAir
     }
 }
-console.log(str.filterDigits())
+
+class Car extends Vehicle {
+    constructor(model, country, fuel, wheelCount, landOrAir) {
+        super(fuel, wheelCount, landOrAir)
+        this.model = model
+        this.country = country
+    }
+}
+let cars = new Car('Mercedes', "Germany", "Benzin", "4", "Land")
+console.log(cars.fuel, cars.country, )
+
+
+
+class Plane extends Vehicle {
+    constructor(model, country, fuel, wheelCount, landOrAir) {
+        super(fuel, wheelCount, landOrAir)
+        this.model = model
+        this.country = country
+    }
+}
+let Airbus = new Plane('Airbus A300', 'Germany', 'Benzin', '3', 'Air')
+console.log(Airbus.model)
