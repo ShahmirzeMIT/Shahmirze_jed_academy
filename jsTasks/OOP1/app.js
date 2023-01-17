@@ -7,6 +7,7 @@ Array.prototype.removeDuplicates = function() {
         }
     })
 }
+console.log(arr.removeDuplicates())
 let mix = [null, 12, undefined, NaN, false, 1214, 435, 655, "", 0]
 
 Array.prototype.removeFalsies = function() {
