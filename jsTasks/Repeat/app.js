@@ -42,9 +42,28 @@ let root=document.getElementById("root")
 // 	const Cako=new CreateUser("Cako",16,"businessman")
 // 	console.log(Cako)
 
-let lookFor=prompt("Daxil edin")
+// let lookFor=prompt("Daxil edin")
 
-let text="While Sako was Going The way he saw my friend and said his we will rock on"
-root.textContent=text
-let find=text.toLocaleLowerCase().replace(lookFor,"⭕")
-root.textContent=find
+// let text="While Sako was Going The way he saw my friend and said his we will rock on"
+// root.textContent=text
+// let find=text.toLocaleLowerCase().replace(lookFor,"⭕")
+// root.textContent=find
+// let arr=[1,2,4,"ds","dskfm","f"]
+// arr.push("salam")
+// console.log(arr)
+// let img=document.getElementById("img")
+let btn=document.getElementById("btn")
+// console.log(img.src,img.alt)
+// btn.addEventListener("click",()=>{
+// 		img.setAttribute("src",'download.jpg')
+// })
+
+// console.log(img.getAttribute('src'))
+
+
+// btn.addEventListener('click',(e)=>{
+// let div=document.createElement("div")
+// div.classList.add("circle")
+// root.append(div)
+
+// })
